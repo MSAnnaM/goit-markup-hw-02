@@ -1,0 +1,196 @@
+:root{
+    --white-background: #FFFFFF;
+    --active-link: #404BBF;
+    --theme-dark: #2E2F42;
+    --text: #434455;
+    --theme-light: #F4F4FD;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: var(--white-background);
+}
+.header-logo{
+    font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: var(--theme-dark);
+text-decoration: none;
+text-transform: uppercase;
+}
+.header-logo span{
+    color: #4D5AE5;
+}
+.header-list{
+    list-style-type: none;
+}
+.header-link{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--theme-dark);
+        text-decoration: none;
+}
+.header-link:hover,
+.header-link:focus{
+    text-decoration: underline;
+    color: var(--active-link);
+}
+.contacts-list{
+    list-style-type: none;
+}
+.contacts-mail,
+.contacts-tel{
+    text-decoration: none;
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--text);
+}
+.contacts .contacts-mail:hover,
+.contacts .contacts-mail:focus{
+color: var(--active-link);
+}
+.hero{
+    background-color: var(--theme-dark);
+}
+.hero-title{
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+       color: var(--white-background);
+}
+.hero-button{
+    background-color: #4D5AE5;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+}
+.hero-button:hover,
+.hero-button:focus{
+    background-color: var(--active-link);
+}
+.discrp-list{
+    background-color: var(--white-background);
+    list-style-type: none;
+}
+.discrp-subtitle{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--theme-dark);
+}
+.discrp-text{
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--text);
+}
+.doing{
+    background-color: var(--white-background);
+}
+.doing-list{
+    list-style-type: none;
+}
+.doing-title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;  
+        color: var(--theme-dark);
+}
+.team{
+    background-color:var(--theme-light);
+}
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--theme-dark);
+}
+.team-list{
+    list-style-type: none;
+}
+.team-name{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--theme-dark);
+}
+.team-text{
+font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+.footer{
+    background-color: var(--theme-dark);
+}
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--theme-light);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer-logo span {
+    color: #4D5AE5;
+}
+.footer-text{
+font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--theme-light);
+}
+.portfolio{
+    background-color: var(--white-background);
+}
+.portfolio-list-button,
+.portfolio-list{
+    list-style-type: none;
+}
+.portfolio-button{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background-color: var(--theme-light);
+}
+.portfolio-button:hover,
+.portfolio-button:focus{
+    background-color: var(--active-link);
+    color: #FFFFFF;
+}
+.portfolio-list-link{
+    text-decoration: none;
+}
+.portfolio-list-title{
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--theme-dark);
+}
+.portfolio-list-text{
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--text);
+}
