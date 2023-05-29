@@ -110,8 +110,8 @@ color: var(--active-link);
         letter-spacing: 0.02em;  
         color: var(--theme-dark);
 }
-.team-item{
-    background-color: #FFFFFF;
+.team{
+    background-color: #F4F4FD;
 }
 .team-title{
     font-weight: 700;
@@ -121,9 +121,6 @@ color: var(--active-link);
     text-transform: capitalize;
     letter-spacing: 0.02em;
     color: var(--theme-dark);
-}
-.team-list{
-   background-color: #FFFFFF;
 }
 .team-name{
     font-weight: 500;
