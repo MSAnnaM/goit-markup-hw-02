@@ -113,6 +113,9 @@ color: var(--active-link);
 .team{
     background-color: #F4F4FD;
 }
+.team-item{
+    background-color: #FFFFFF;
+}
 .team-title{
     font-weight: 700;
     font-size: 36px;
